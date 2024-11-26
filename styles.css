@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "SillyFont";
+    src: url(GAU_pop_magic.TTF);
+	}
+
+}
+
+h1{
+	color: #F77F00;
+	font-size: 60px;
+	text-align: center;
+	font-family: "SillyFont";
+	background-color: #003049;
+
+}
+
+body{
+	color: #EAE2B7;
+	background-color: #003049;
+	font-family: "SillyFont";
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 2;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	background-color: #FCBF49;
+}
+
+li {
+	break-after: avoid;
+}
+li a{
+	float: left;
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	color: #003049;
+}
+
+li a:hover{
+	color: #BCEBB7;
+	text-decoration-style: ;
+	background-color: #D62828;
+}
